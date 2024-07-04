@@ -5,6 +5,7 @@ tailwind.config = {
         "custom-bg": "#1E1E1E",
         "custom-text": "#FFF8B8",
         "custom-hover": "#5697C2",
+        "custom-gray": "#5C5C5C",
       },
       fontFamily: {
         "sans-narrow": ["PT Sans Narrow", "sans-serif"],

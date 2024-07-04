@@ -11,170 +11,270 @@
       href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   </head>
+  <style>
+    .enter-button {
+      width: 80px;
+      height: 90px;
+      clip-path: polygon(0 0, 100% 0, 100% 45%, 75% 45%, 75% 100%, 0 100%);
+      transform: scaleX(-1);
+      border-radius: 6px;
+    }
+  </style>
   <body
     class="bg-custom-bg text-custom-text font-sans-narrow m-0 p-0 overflow-y-scroll snap-y snap-mandatory"
   >
-    <div id="home" class="w-full h-screen relative snap-start m-0 p-0">
-      <nav class="bg-custom-bg shadow-md">
-        <div
-          class="container mx-auto px-4 py-2 flex justify-between items-center"
-        >
-          <a class="font-bold text-2xl" href="#">LOGO</a>
-          <button class="block lg:hidden">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="hidden lg:flex space-x-6">
-            <a
-              class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
-              href="#home"
-              >HOME</a
-            >
-            <a
-              class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
-              href="#education"
-              >EDUCATION</a
-            >
-            <a
-              class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
-              href="#languages"
-              >LANGUAGES</a
-            >
-            <a
-              class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
-              href="#portfolio"
-              >PORTFOLIO</a
-            >
-            <a
-              class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
-              href="#socials"
-              >SOCIALS</a
-            >
+    <div id="app">
+      <div id="home" class="w-full h-screen relative snap-start m-0 p-0">
+        <nav class="bg-custom-bg shadow-md">
+          <div
+            class="container mx-auto px-4 py-2 flex justify-between items-center"
+          >
+            <a href="#">
+              <img
+                src="/projeto-portfolio/img/logo.svg"
+                alt="Logo"
+                class="w-20 h-20"
+              />
+            </a>
+
+            <button class="block lg:hidden">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="hidden lg:flex space-x-6">
+              <a
+                class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
+                href="#home"
+                >HOME</a
+              >
+              <a
+                class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
+                href="#education"
+                >EDUCATION</a
+              >
+              <a
+                class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
+                href="#languages"
+                >LANGUAGES</a
+              >
+              <a
+                class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
+                href="#portfolio"
+                >PORTFOLIO</a
+              >
+              <a
+                class="text-custom-text text-lg hover:underline hover:underline-offset-3 hover:text-custom-hover"
+                href="#socials"
+                >SOCIALS</a
+              >
+            </div>
+          </div>
+        </nav>
+
+        <div id="inicio" class="top-0 right-0 pr-5 pt-5">
+          <div class="font-bold text-left text-custom-text mr-8 mt-6 text-3xl">
+            <p>
+              Olá, <br />Eu sou a <span class="text-custom-hover">Milena</span>!
+            </p>
           </div>
         </div>
-      </nav>
+        <div class="absolute bottom-0 left-1/4 pl-16">
+          <img
+            src="img/imgMilena.png"
+            alt="milena"
+            class="w-48 lg:w-72 opacity-95"
+          />
+        </div>
 
-      <div id="inicio" class="absolute top-0 right-0 pr-5 pt-5">
-        <div class="font-bold text-left text-custom-text mr-8 mt-6 text-3xl">
-          <p>
-            Olá, <br />
-            Eu sou a <span class="text-custom-hover">Milena</span>!
-          </p>
+        <div id="sobre" class="absolute top-0 left-0 pl-3 ml-3">
+          <img
+            src="img/borboletapg.1.png"
+            alt="Borboleta"
+            class="w-64 lg:w-80"
+          />
+        </div>
+
+        <div id="portfolio-img" class="absolute bottom-0 right-0 pr-4 ml-5">
+          <img src="img/binariospg1.png" alt="binarios" class="w-64 lg:w-80" />
+        </div>
+
+        <div id="contact" class="absolute bottom-0 left-24 w-full lg:w-[900px]">
+          <img
+            src="img/imgfundopg.1.png"
+            alt="Imagem de Fundo"
+            class="w-full lg:w-full"
+          />
         </div>
       </div>
-      <div class="absolute bottom-0 left-1/4 pl-16">
-        <img
-          src="img/imgMilena.png"
-          alt="milena"
-          class="w-48 lg:w-72 opacity-95"
-        />
+
+      <div id="education" class="w-full h-screen relative snap-start m-0 p-0">
+        <div class="absolute top-0 left-24 w-full lg:w-[900px]">
+          <img
+            src="img/fundopg2.png"
+            alt="Imagem de Fundo"
+            class="w-full lg:w-full"
+          />
+        </div>
+        <div class="absolute top-0 right-0 pr-4 ml-5">
+          <img src="img/binariospg2.png" alt="binarios" class="w-64 lg:w-80" />
+        </div>
+        <div class="absolute top-0 right-0 px-4 py-4 mx-4 my-24">
+          <img src="img/pc.png" alt="Logo PC" class="w-48 lg:w-64" />
+        </div>
+
+        <div class="flex">
+          <div
+            class="container pt-40 pl-36 mt-12 text-custom-text text-lg w-1/4 justify-end"
+          >
+            <div class="justify-end">
+              <h2>E</h2>
+              <h2>D</h2>
+              <h2>U</h2>
+              <h2>C</h2>
+              <h2>A</h2>
+              <h2>T</h2>
+              <h2>I</h2>
+              <h2>O</h2>
+              <h2>N</h2>
+            </div>
+          </div>
+          <div
+            class="container pt-40 mt-12 text-custom-text text-lg w-42 justify-start"
+          >
+            <div class="justify-start">
+              <h2>Federal University of Technology</h2>
+              <p class="font-size-base">
+                Technologist in Internet Systems, Inforrmation Technology
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="container mt-12 pt-12 pl-6 absolute right-1/3 text-right text-custom-text text-lg"
+        >
+          <h2>T</h2>
+          <h2>R</h2>
+          <h2>A</h2>
+          <h2>B</h2>
+          <h2>A</h2>
+          <h2>L</h2>
+          <h2>H</h2>
+          <h2>O</h2>
+        </div>
       </div>
 
-      <div id="sobre" class="absolute top-0 left-0 pl-3 ml-3">
-        <img src="img/borboletapg.1.png" alt="Borboleta" class="w-64 lg:w-80" />
-      </div>
-
-      <div id="portfolio-img" class="absolute bottom-0 right-0 pr-4 ml-5">
-        <img src="img/binariospg1.png" alt="binarios" class="w-64 lg:w-80" />
-      </div>
-
-      <div id="contact" class="absolute bottom-0 left-24 w-full lg:w-[900px]">
-        <img
-          src="img/imgfundopg.1.png"
-          alt="Imagem de Fundo"
-          class="w-full lg:w-full"
-        />
-      </div>
-    </div>
-
-    <div
-      id="education"
-      class="w-full h-screen relative snap-start m-0 p-0"
-      style="margin-top: -48px"
-    >
-      <div class="absolute top-0 left-24 w-full lg:w-[900px]">
-        <img
-          src="img/fundopg2.png"
-          alt="Imagem de Fundo"
-          class="w-full lg:w-full"
-        />
-      </div>
-      <div class="absolute top-0 right-0 pr-4 ml-5">
-        <img src="img/binariospg2.png" alt="binarios" class="w-48 lg:w-64" />
-      </div>
-      <div class="absolute top-0 right-0 px-4 py-4 mx-4 my-24">
-        <img src="img/pc.png" alt="Logo PC" class="w-48 lg:w-64" />
-      </div>
       <div
-        class="container pt-36 pl-36 mt-12 pt-12 ml-8 text-custom-text text-lg"
+        id="languages"
+        class="w-full h-screen relative snap-start mt-48 m-0 p-0"
       >
-        <h2>E</h2>
-        <h2>D</h2>
-        <h2>U</h2>
-        <h2>C</h2>
-        <h2>A</h2>
-        <h2>Ç</h2>
-        <h2>Ã</h2>
-        <h2>O</h2>
+        <div class="flex flex-col items-center justify-center relative">
+          <keyboard></keyboard>
+        </div>
       </div>
+
+      <div id="portfolio" class="w-full h-screen relative snap-start m-0 p-0">
+        <div class="absolute top-0 right-0 pt-5 pl-5 ml-5">
+          <img
+            src="img/borboletaspg3.png"
+            alt="Imagem de Fundo"
+            class="w-48 lg:w-64"
+          />
+        </div>
+        <div class="absolute bottom-0 left-0">
+          <img src="img/ondaspg3.png" alt="Imagem de Fundo" class="w-fit" />
+        </div>
+      </div>
+
       <div
-        class="container mt-12 pt-12 pl-6 absolute right-1/3 text-right text-custom-text text-lg"
+        id="portfolio"
+        class="w-full h-screen relative snap-start m-0"
+        style="margin-top: -20px"
       >
-        <h2>T</h2>
-        <h2>R</h2>
-        <h2>A</h2>
-        <h2>B</h2>
-        <h2>A</h2>
-        <h2>L</h2>
-        <h2>H</h2>
-        <h2>O</h2>
+        <div class="absolute top-0 right-0 pt-5">
+          <img
+            src="img/ondaspg4.png"
+            alt="Imagem de Fundo"
+            class="w-full lg:w-auto max-h-[50vh] lg:max-h-[80vh]"
+          />
+        </div>
+        <div class="absolute top-0 left-0 pt-5 mt-36">
+          <img
+            src="img/borboletapg4.png"
+            alt="Imagem de Fundo"
+            class="w-48 lg:w-64"
+          />
+        </div>
       </div>
+
+      <div
+        id="socials"
+        class="w-full h-screen relative snap-start m-0 p-0"
+        style="
+          background-image: url('/projeto-portfolio/img/espiral.png');
+          background-size: cover;
+          background-position: center;
+        "
+      ></div>
     </div>
-
-    <div id="portfolio" class="w-full h-screen relative snap-start m-0 p-0">
-      <div class="absolute top-0 right-0 pt-5 pl-5 ml-5">
-        <img
-          src="img/borboletaspg3.png"
-          alt="Imagem de Fundo"
-          class="w-48 lg:w-64"
-        />
-      </div>
-      <div class="absolute bottom-0 left-0">
-        <img src="img/ondaspg3.png" alt="Imagem de Fundo" class="w-full" />
-      </div>
-    </div>
-
-    <div id="socials" class="w-full h-screen relative snap-start m-0 p-0">
-      <div class="absolute top-0 right-0 pt-5">
-        <img
-          src="img/ondaspg4.png"
-          alt="Imagem de Fundo"
-          class="w-full lg:w-auto max-h-[50vh] lg:max-h-[80vh]"
-        />
-      </div>
-      <div class="absolute top-0 left-0 pt-5">
-        <img
-          src="img/borboletapg4.png"
-          alt="Imagem de Fundo"
-          class="w-48 lg:w-64"
-        />
-      </div>
-    </div>
-
-    <div
-      id="portfolio"
-      class="w-full h-screen relative snap-start m-0 p-0"
-    ></div>
-    <div
-      id="socials"
-      class="w-full h-screen relative snap-start m-0 p-0"
-      style="
-        background-image: url('/projeto-portfolio/img/espiral.png');
-        background-size: cover;
-        background-position: center;
-      "
-    ></div>
-
     <script src="/projeto-portfolio/tailwind.config.js"></script>
+    <script>
+      Vue.component("keyboard", {
+        template: `
+<div class="flex flex-col">
+  <div class="flex">
+    <!-- Primeira coluna -->
+    <div class="w-3/4">
+      <div class="flex flex-col">
+        <!-- Primeira linha de botões -->
+        <div class="flex space-x-2 mb-2">
+          <!-- Botões da primeira coluna -->
+          <button class="w-24 h-16 border border-custom-gray rounded hover:bg-custom-text">Retangular</button>
+          <button class="w-16 h-16 border border-custom-gray rounded hover:bg-custom-text">Quadrado</button>
+          <button class="w-16 h-16 border border-custom-gray rounded hover:bg-custom-text">Quadrado</button>
+          <button class="w-16 h-16 border border-custom-gray rounded hover:bg-custom-text"></button>
+        </div>
+
+        <!-- Segunda linha de botões -->
+        <div class="flex space-x-2 mb-2 -p-2">
+          <!-- Botões da primeira coluna -->
+          <button class="w-16 h-16 border border-custom-gray rounded hover:bg-custom-text">Quadrado</button>
+          <button class="w-16 h-16 border border-custom-gray rounded hover:bg-custom-text">Quadrado</button>
+          <button class="w-16 h-16 border border-custom-gray rounded hover:bg-custom-text">Quadrado</button>
+          <button class="w-16 h-16 border border-custom-gray rounded hover:bg-custom-text">Quadrado</button>
+          <button class="w-16 h-16 border border-custom-gray rounded hover:bg-custom-text">Quadrado</button>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda coluna -->
+    <div class="w-1/4">
+      <!-- Terceira linha -->
+      <div class="flex mb-2">
+        <!-- Botão "Enter" -->
+        <div class="w-full">
+          <div class="flex justify-start items-center">
+            <button class="enter-button border border-custom-gray rounded hover:bg-custom-text h-[136px] w-30"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nova linha abaixo -->
+  <div class="flex justify-start">
+    <button class="w-[405px] h-16 border border-custom-gray rounded hover:bg-custom-text rounded">Nova Linha Abaixo</button>
+  </div>
+</div>
+
+  `,
+      });
+
+      new Vue({
+        el: "#app",
+      });
+    </script>
   </body>
 </html>
