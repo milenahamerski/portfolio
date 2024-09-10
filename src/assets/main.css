@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css ou em um arquivo global de estilo */
+
+/* styles.css ou em um arquivo global de estilo */
+
+@media (max-width: 1024px) {
+  /* Ajustes para tamanhos de tela menores que 1024px */
+  /* Adicione regras para ajustar os componentes */
+}
+
+@media (max-width: 768px) {
+  /* Ajustes para tamanhos de tela menores que 768px */
+  /* Adicione regras para ajustar os componentes */
+}

@@ -1,0 +1,10 @@
+{
+  "en": {
+    "greeting": "Hello, I am Milena!",
+    "subtext": "As a developer with a deep passion for design, I’m on a journey to blend my technical skills with creativity. I’m also exploring the world of 3D design, eager to integrate these new techniques with my development expertise to bring innovative and visually compelling projects to life."
+  },
+  "fr": {
+    "greeting": "Bonjour, je suis Milena !",
+    "subtext": "En tant que développeuse passionnée par le design, je suis en train de fusionner mes compétences techniques avec ma créativité. J'explore également le monde du design 3D, désireuse d'intégrer ces nouvelles techniques à mon expertise en développement pour donner vie à des projets innovants et visuellement captivants."
+  }
+}
