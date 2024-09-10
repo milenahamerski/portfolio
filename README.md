@@ -1,40 +1,17 @@
-# portfolio-milena
+# Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to my portfolio! I'm Milena, a passionate developer and aspiring designer with a strong background in both front-end and back-end technologies. This portfolio showcases some of my recent projects and highlights my skills and experience.
 
-## Recommended IDE Setup
+## About Me
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+I am a developer with experience in various technologies, including HTML, CSS, JavaScript, and Vue.js. My passion for design drives me to continuously improve and explore new creative approaches in my work.
 
-## Type Support for `.vue` Imports in TS
+## Skills
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- **Front-End:** HTML, CSS, JavaScript, Vue.js, Tailwind CSS
+- **Back-End:** RESTful APIs, Database Integration
+- **Tools:** Git, Vite, Figma, Spline
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Contact
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/milena-hamerski) or [GitHub](https://github.com/milenahamerski).
