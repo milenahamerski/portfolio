@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-tailwind.config = {
-=======
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
->>>>>>> 0169b22 (Inicializando o projeto)
   theme: {
     extend: {
       colors: {
@@ -16,10 +12,6 @@ module.exports = {
       fontFamily: {
         "sans-narrow": ["PT Sans Narrow", "sans-serif"],
       },
-<<<<<<< HEAD
-      fontSize: {
-        xxl: "2rem",
-=======
       screens: {
         sm: "640px",
         md: "768px", // Adicione breakpoints personalizados se necessário
@@ -28,7 +20,6 @@ module.exports = {
         xxxl: "3rem",
         xxl: "2rem",
         xl: "1.5rem",
->>>>>>> 0169b22 (Inicializando o projeto)
         lg: "1.25rem",
         base: "1.125rem",
       },
@@ -37,13 +28,9 @@ module.exports = {
         "-28px": "-28px",
       },
       width: {
-<<<<<<< HEAD
-        "full-vh": "100vh",
-=======
         "full-vh": "90vh",
         "max-w-screen-lg": "max-w-screen-lg",
         "max-img": "1200px", // Tamanho máximo para imagens
->>>>>>> 0169b22 (Inicializando o projeto)
       },
       scrollSnapType: {
         "y-mandatory": "y mandatory",
@@ -56,8 +43,5 @@ module.exports = {
       },
     },
   },
-<<<<<<< HEAD
-=======
   plugins: [],
->>>>>>> 0169b22 (Inicializando o projeto)
 };

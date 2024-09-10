@@ -1,18 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "tailwind.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.4.4"
-=======
   "name": "portfolio-milena",
   "version": "0.0.0",
   "private": true,
@@ -38,8 +24,7 @@
     "postcss": "^8.4.39",
     "tailwind": "^4.0.0",
     "typescript": "~5.1.6",
-    "vite": "^4.4.9",
+    "vite": "^4.5.3",
     "vue-tsc": "^1.8.8"
->>>>>>> 0169b22 (Inicializando o projeto)
   }
 }
