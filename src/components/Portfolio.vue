@@ -62,6 +62,51 @@
               Go to website
             </a>
           </div>
+
+          <div
+            v-if="currentSlide === 1"
+            class="flex flex-wrap gap-2 mt-4 justify-center lg:justify-start"
+          >
+            <a
+              href="https://spline.design/"
+              target="_blank"
+              class="w-12 h-12 border border-custom-gray rounded flex items-center justify-center text-xs text-custom-gray"
+            >
+              Spline
+            </a>
+            <a
+              href="https://reactjs.org/"
+              target="_blank"
+              class="w-12 h-12 border border-custom-gray rounded flex items-center justify-center text-xs text-custom-gray"
+            >
+              React
+            </a>
+            <a
+              href="https://milenahamerski.github.io/spline-404"
+              target="_blank"
+              class="ml-10 w-24 h-12 border border-custom-hover rounded hover:bg-custom-text transition duration-300 ease-in-out flex items-center justify-center text-xs text-custom-hover font-semibold"
+            >
+              Go to homepage
+            </a>
+          </div>
+
+          <div
+            v-if="currentSlide === 2"
+            class="flex flex-wrap gap-2 mt-4 justify-center lg:justify-start"
+          >
+            <button
+              class="w-12 h-12 border border-custom-gray rounded flex items-center justify-center text-xs text-custom-gray"
+            >
+              Vue.js
+            </button>
+            <a
+              href="https://milenahamerski.github.io/portfolio/"
+              target="_blank"
+              class="ml-10 w-24 h-12 border border-custom-hover rounded hover:bg-custom-text transition duration-300 ease-in-out flex items-center justify-center text-xs text-custom-hover font-semibold"
+            >
+              Go to website
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -81,9 +126,8 @@ export default {
         "Seashellter is a project developed for the HTML/CSS and frameworks course in the Internet Systems program at UTFPR. It follows a mobile-first approach, ensuring the design is optimized for mobile devices and then adapted for larger screens.",
       texts: [
         "Seashellter is a project developed for the HTML/CSS and frameworks course in the Internet Systems program at UTFPR. It follows a mobile-first approach, ensuring the design is optimized for mobile devices and then adapted for larger screens.",
-        "Texto para o slide 2",
-        "Texto para o slide 3",
-        "Texto para o slide 4",
+        "For my 404 project, I was inspired by The Truman Show and decided to create a unique error page experience. Built using React and Spline, a 3D design tool, the page features an interactive 3D environment embedded directly into the web.",
+        "For my portfolio, I wanted to showcase more than just my skills as a developer—I wanted it to reflect my personality. All the drawings featured were created by me, adding a personal touch to the design. I combined elements that inspire me, like the music of Cigarettes After Sex, the aesthetics of the videogame Life is Strange, and the symbolism of butterflies.",
       ],
       currentSlide: 0,
     };

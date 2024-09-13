@@ -12,17 +12,14 @@
 
 <script>
 import seashellter from "@/assets/images/seashellter.png";
+import notFound from "@/assets/images/404.png";
+import portfolio from "@/assets/images/portfolio.png";
 
 export default {
   name: "Slider",
   data() {
     return {
-      images: [
-        seashellter,
-        "https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg",
-        "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/12/04/19/30/berlin-cathedral-1882397_1280.jpg",
-      ],
+      images: [seashellter, notFound, portfolio],
       currentIndex: 0,
     };
   },
