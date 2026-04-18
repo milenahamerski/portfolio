@@ -7,7 +7,7 @@
   <Socials />
 </template>
 
-<script setup>
+<script setup lang="ts">
 //import Keyboard from "./components/Keyboard.vue";
 import Home from "./components/Home.vue";
 import Navbar from "./components/Navbar.vue";

@@ -48,7 +48,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 function openLink(type) {
   switch (type) {
     case "github":

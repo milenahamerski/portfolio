@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import seashellter from "@/assets/images/seashellter.png";
 import notFound from "@/assets/images/404.png";
 import portfolio from "@/assets/images/portfolio.png";

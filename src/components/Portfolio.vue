@@ -113,7 +113,7 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 import Slider from "./Slider.vue";
 
 export default {

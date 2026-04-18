@@ -134,7 +134,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 // Lógica específica do componente, se necessário
 </script>
 

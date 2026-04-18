@@ -67,7 +67,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 function goToSocials() {
   const socialsSection = document.getElementById("socials");
   if (socialsSection) {
